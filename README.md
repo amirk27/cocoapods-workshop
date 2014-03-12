@@ -51,9 +51,9 @@ Discussion:
 	- `pod 'AFNetworking', :path => '~/Documents/AFNetworking'`
 - Binary pods
 - Version numbers: 3.0.3a
-- Test target only pod
+- Test target only pod -> [https://github.com/optionu/stolpersteine-ios/blob/master/Podfile](https://github.com/optionu/stolpersteine-ios/blob/master/Podfile)
 - Reveal -> no configuration based pod
-- Version Eye
+- [Version Eye](https://www.versioneye.com/)
 - Private pods: [http://guides.cocoapods.org/making/private-cocoapods.html](http://guides.cocoapods.org/making/private-cocoapods.html)
 
 ## Create your own pod
