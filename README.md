@@ -66,7 +66,7 @@ Discussion:
 5. [Fork Specs repo](https://github.com/CocoaPods/Specs)
 6. Add your podspec and create pull request
 
-*Example podspec*
+*Sample podspec*
 
 ````
 Pod::Spec.new do |s|
