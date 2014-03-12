@@ -10,39 +10,30 @@
 
 #import "AFNetworking.h"
 
+#import "AlertViewController.h"
+
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    [self excerciseAFNetworking];
+    [ViewController excerciseAFNetworking];
 }
 
-- (void)excerciseAFNetworking
++ (void)excerciseAFNetworking
 {
     NSURL *url = [NSURL URLWithString:@"http://google.de"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Success"
-                                                            message:nil
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"Ok"
-                                                  otherButtonTitles:nil];
-        [alertView show];
+        [AlertViewController showSuccess];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                            message:[error localizedDescription]
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"Ok"
-                                                  otherButtonTitles:nil];
-        [alertView show];
+        [AlertViewController showError:error];
     }];
     
     [operation start];
 }
-
 
 @end
