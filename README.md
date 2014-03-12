@@ -6,7 +6,7 @@ Helpful links to get started:
 - [http://www.raywenderlich.com/12139/introduction-to-cocoapods](http://www.raywenderlich.com/12139/introduction-to-cocoapods)
 - [http://theonlylars.com/blog/2013/01/20/cocoapods-creating-a-pod-spec/](http://theonlylars.com/blog/2013/01/20/cocoapods-creating-a-pod-spec/)
 
-Ask me on [Twitter](https://twitter.com/claushoefele)
+[Ask me on Twitter](https://twitter.com/claushoefele)
 
 ## Example project
 
@@ -19,7 +19,7 @@ Ask me on [Twitter](https://twitter.com/claushoefele)
 *Sample Podfile*
 
 ````
-platform :iOS, '7.0'
+platform :ios, '7.0'
 
 pod 'AFNetworking'
 ````
