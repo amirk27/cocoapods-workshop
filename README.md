@@ -29,6 +29,7 @@ pod 'AFNetworking'
 ````
 - Project/
 	- Project/
+		- *.{h,m}
 	- Project.xcodeproj
 	- Project.xcworkspace
 	- Podfile
