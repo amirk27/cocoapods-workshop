@@ -33,6 +33,7 @@ pod 'AFNetworking'
 	- Project.xcworkspace
 	- Podfile
 	- Pods/
+		- Pods.xcodeproj 
 ````
 Discussion:
 
