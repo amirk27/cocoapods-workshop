@@ -54,7 +54,7 @@ Discussion:
 - Binary pods
 - Version numbers: 3.0.3a
 - Test target only pod -> [https://github.com/optionu/stolpersteine-ios/blob/master/Podfile](https://github.com/optionu/stolpersteine-ios/blob/master/Podfile)
-- Reveal -> no configuration based pod
+- [Reveal](http://revealapp.com/) -> [no configuration based pod](http://support.revealapp.com/kb/getting-started/integrating-reveal-with-your-ios-app#cocoapods-integration)
 - [Version Eye](https://www.versioneye.com/)
 - Private pods: [http://guides.cocoapods.org/making/private-cocoapods.html](http://guides.cocoapods.org/making/private-cocoapods.html)
 
