@@ -10,9 +10,9 @@ Helpful links to get started:
 
 ## Example project
 
-1. Install XCode or command line tools (`xcode-select --install`)
+1. Install Xcode or command line tools (`xcode-select --install`)
 2. `sudo gem install cocoapods` (if needed: `sudo gem update --system`)
-2. Create new XCode project
+2. Create new Xcode project
 3. `touch Podfile` && `open -e Podfile`
 5. `pod install`
 
@@ -36,7 +36,7 @@ pod 'AFNetworking'
 ````
 Discussion:
 
-- XCode workspace, projects, Build Phases, Info settings
+- Xcode workspace, projects, Build Phases, Info settings
 - Podfile.lock, Pods directory
 - Check in Pods directory
 - `pod outdated`, `pod update`
