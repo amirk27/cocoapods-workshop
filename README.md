@@ -61,7 +61,7 @@ Discussion:
 ## Create your own pod
 
 1. `pod spec create AlertViewController` or [copy from existing podspec](https://github.com/choefele/CCHMapClusterController/blob/master/CCHMapClusterController.podspec)
-2. `open -e AlertViewController`
+2. `open -e AlertViewController.podspec`
 3. Add `pod 'AlertViewController', :path => '..'` to your project for testing
 3. When done testing, tag source code with version
 4. `pod spec lint`
